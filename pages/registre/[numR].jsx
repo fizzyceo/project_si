@@ -1,6 +1,7 @@
 import ActeD from '@/Components/ActeDeces';
 import ActeM from '@/Components/ActeMarriage';
 import ActeN from '@/Components/ActeNaissance';
+import Menu from '@/Components/Menu';
 import supabase from '@/utils/SupabaseCli';
 import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
@@ -37,7 +38,6 @@ const Registre = () => {
         const ActeValide = await supabase
           .from(tableName)
           .select('*')
-          .eq('valide', 1)
           .eq('registre', numR);
         if (ActeValide.error) {
           throw ActeValide.error.message;
@@ -50,7 +50,7 @@ const Registre = () => {
   }, [numR]);
   return (
     <div>
-      <p>{numR}</p>
+      <Menu />
       <h1 className="border-b-2 text-center py-2 text-xl my-5 border-black">
         Acte Valide
       </h1>

@@ -16,9 +16,7 @@ export default function Home() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [userId, setUserId] = useState('');
-  const [showDeclareNModel, setshowDeclareNModel] = useState(false);
-  const [showDeclareDModel, setshowDeclareDModel] = useState(false);
-  const [showDeclareMModel, setshowDeclareMModel] = useState(false);
+
   useEffect(() => {
     const getuser = async () => {
       const { data, error } = await supabase.auth.getUser();
@@ -97,42 +95,7 @@ export default function Home() {
           <a className="text-white hover:underline" href="/SignUp">
             vous etes un officier sans compte ?{' '}
           </a>
-          <div className="w-full">
-            <div className=" w-full flex flex-col gap-2 justify-center items-center">
-              <div
-                className="py-2 cursor-pointer w-full rounded-md text-center text-slate-200 bg-[#000]"
-                onClick={() => setshowDeclareNModel((model) => !model)}
-              >
-                Declarer un Acte de Naissance
-              </div>
-              <div
-                className="py-2 cursor-pointer w-full rounded-md text-center text-slate-200 bg-[#000]"
-                onClick={() => setshowDeclareMModel((model) => !model)}
-              >
-                Declarer un Acte de Marriage
-              </div>
-              <div
-                className="py-2 cursor-pointer w-full rounded-md text-center text-slate-200 bg-[#000]"
-                onClick={() => setshowDeclareDModel((model) => !model)}
-              >
-                Declarer un Acte de Deces
-              </div>
-            </div>
-          </div>
         </section>
-        <DeclarerActeN
-          onClose={() => setshowDeclareNModel(false)}
-          isvisible={showDeclareNModel}
-        />
-        <DeclarerActeM
-          onClose={() => setshowDeclareMModel(false)}
-          isvisible={showDeclareMModel}
-        />
-
-        <DeclarerActeD
-          onClose={() => setshowDeclareDModel(false)}
-          isvisible={showDeclareDModel}
-        />
       </main>
     </>
   );

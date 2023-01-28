@@ -32,7 +32,7 @@ const ActeD = ({ acte, valide }) => {
   return (
     <div className="font-serif hovershadow transition-all   bg-[#d4f6d4] w-[750px] mx-auto rounded-full p-4 flex flex-row justify-between items-center">
       <a
-        href={`/acte/${numActe}`}
+        href={`/acteD/${numActe}`}
         className="flex items-center gap-5 justify-between"
       >
         <img src="/file.png" className="w-12 h-12" alt="" />
@@ -41,15 +41,6 @@ const ActeD = ({ acte, valide }) => {
           <p>Lieu de Deces: {lieu}</p>
         </div>
       </a>
-
-      {valide && (
-        <button
-          onClick={Validate}
-          className="bg-green-700 text-white px-5 py-2 z-20 relative left-5  rounded-md"
-        >
-          Valider
-        </button>
-      )}
     </div>
   );
 };
