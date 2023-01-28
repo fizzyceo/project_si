@@ -83,21 +83,9 @@ const Civile = ({ uid, numb }) => {
           >
             Declarer un Acte de Marriage
           </div>
-          {/* {ActeMarriageNonValide && (
-            <div className="flex flex-col gap-7">
-              {ActeMarriageNonValide.map((acte) => (
-                <ActeM key={acte.numActe} acte={acte} uid={uid} />
-              ))}
-            </div>
-          )} */}
+
           <h1 className="text-lg font-semibold underline">Acte de Deces:</h1>
-          {/* {ActeDecesNonValide && (
-            <div className="flex flex-col gap-7">
-              {ActeDecesNonValide.map((acte) => (
-                <ActeD key={acte.numActe} acte={acte} uid={uid} />
-              ))}
-            </div>
-          )} */}
+
           <div className="w-full">
             <div className=" w-full flex flex-col gap-2 justify-center items-center">
               <div

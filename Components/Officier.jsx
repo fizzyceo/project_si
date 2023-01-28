@@ -4,7 +4,6 @@ import { useState } from 'react';
 
 const Officier = ({ of }) => {
   const { matricule, date_entree, email, password, nom, prenom } = of;
-  const [src, setSrc] = useState('');
 
   return (
     <a

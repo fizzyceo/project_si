@@ -30,13 +30,14 @@ const PageOfficier = () => {
           throw error.message;
         }
         console.log(data);
-
-        setEmail(data[0].email);
-        setPassword(data[0].password);
-        setNom(data[0].nom);
-        setPrenom(data[0].prenom);
-        setRole(data[0].role);
-        setDateEntree(data[0].date_entree);
+        if (data.length > 0) {
+          setEmail(data[0]?.email);
+          setPassword(data[0]?.password);
+          setNom(data[0]?.nom);
+          setPrenom(data[0]?.prenom);
+          setRole(data[0]?.role);
+          setDateEntree(data[0]?.date_entree);
+        }
       };
       getOfficierDetails();
     }
@@ -64,7 +65,7 @@ const PageOfficier = () => {
 
   return (
     <div className="bg-slate-200 min-h-screen overflow-hidden">
-      <Menu />
+      <Menu nom={nom} />
       {/* <ShareModel
     onClose={() => setshowShareModel(false)}
     isvisible={showShareModel}

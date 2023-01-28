@@ -8,15 +8,6 @@ const DeclarerActeM = ({ isvisible, onClose, uid }) => {
   const [numTemoin1, setNumTemoin1] = useState('');
   const [numTemoin2, setNumTemoin2] = useState('');
 
-  // const [nomH, setNomH] = useState('');
-  // const [prenomH, setPrenomH] = useState('');
-  // const [nomF, setNomF] = useState('');
-  // const [prenomF, setPrenomF] = useState('');
-  // const [numPereH, setNumPereH] = useState('');
-  // const [numMereH, setNumMereH] = useState('');
-  // const [numPereF, setNumPereF] = useState('');
-  // const [numMereF, setNumMereF] = useState('');
-
   const [date, setDate] = useState('');
   const [lieu, setLieu] = useState('');
   const [error, setError] = useState('');

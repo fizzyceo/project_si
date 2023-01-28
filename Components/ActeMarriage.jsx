@@ -4,18 +4,7 @@ import { useState } from 'react';
 
 const ActeM = ({ acte, uid, valide }) => {
   const { numActe, type, lieu, date } = acte;
-  // const [dateNaissance, setDateNaissance] = useState('');
-  // const [valide, SetValide] = useState(false);
-  //ACTE VALIDE /NON VALIDE
-  //NAISSANCE / MARRIAGE / DECES
-  // const [lieuNaissance, setLieuNaissance]=useState('')
-  // const [sexe, setSexe]=useState('')
-  // const [lieuNaissance, setLieuNaissance]=useState('')
-  // if (type === 'marriage') {
-  // } else if (type === 'naissance') {
-  // } else {
-  // }
-  // const [valide, SetValide] = useState(false);
+
   console.log(acte);
   const Validate = async () => {
     const dateM = new Date(date);
