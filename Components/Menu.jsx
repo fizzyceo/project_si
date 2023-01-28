@@ -14,8 +14,10 @@ const Menu = ({ nom, prenom }) => {
     }
   };
   return (
-    <div className="flex my-3 mx-auto text-white justify-between items-center menu w-[90%] rounded-full bg-black p-5">
-      <h1 className="text-xl">Welcome {nom}</h1>
+    <div className="flex my-3 mx-auto font-serif text-white justify-between items-center menu w-[90%] rounded-full bg-black p-5">
+      <h1 className="text-xl">
+        Welcome <span className="text-green-400 font-semibold">{nom}</span>
+      </h1>
 
       <button onClick={logout}>Logout</button>
     </div>

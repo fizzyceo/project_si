@@ -57,7 +57,7 @@ const Titulaire = ({ numb, uid }) => {
         Add New Registre
       </button>
       {registres ? (
-        <div className="flex max-h-[650px] overflow-y-scroll flex-col gap-7">
+        <div className="flex max-h-[650px] overflow-y-scroll flex-col py-5 gap-7">
           {registres.map((registre) => (
             <Registre key={registre.numRegistre} registre={registre} />
           ))}

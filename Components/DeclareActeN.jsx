@@ -107,7 +107,7 @@ nummere */}
                 onChange={(e) => setNom(e.target.value)}
                 name="NumDeclarant"
                 className="w-[80%] py-2 px-2 border-2 border-slate-400 rounded-md "
-                placeholder="Num d'acte..."
+                placeholder="Nom..."
               />
             </div>
             <div className="flex items-center justify-between grow gap-3 w-full">
@@ -118,7 +118,7 @@ nummere */}
                 onChange={(e) => setPrenom(e.target.value)}
                 name="NumDeclarant"
                 className="w-[80%] py-2 px-2 border-2 border-slate-400 rounded-md "
-                placeholder="Num d'acte..."
+                placeholder="Prenom..."
               />
             </div>
             <div className="flex items-center justify-between grow gap-3 w-full">
@@ -131,7 +131,7 @@ nummere */}
                 onChange={(e) => setDateN(e.target.value)}
                 name="NumDeclarant"
                 className="w-[80%] py-2 px-2 border-2 border-slate-400 rounded-md "
-                placeholder="Num d'acte..."
+                placeholder="Date de Naissance..."
               />
             </div>
             <div className="flex items-center justify-between grow gap-3 w-full">
@@ -144,7 +144,7 @@ nummere */}
                 onChange={(e) => setLieu(e.target.value)}
                 name="NumDeclarant"
                 className="w-[80%] py-2 px-2 border-2 border-slate-400 rounded-md "
-                placeholder="Num d'acte..."
+                placeholder="Lieu de Naissance..."
               />
             </div>
             <div className="flex items-center justify-between grow gap-3 w-full">
@@ -157,7 +157,7 @@ nummere */}
                 onChange={(e) => setSexe(e.target.value)}
                 name="NumDeclarant"
                 className="w-[80%] py-2 px-2 border-2 border-slate-400 rounded-md "
-                placeholder="Num d'acte..."
+                placeholder="Sexe..."
               />
             </div>
             <div className="flex items-center justify-between grow gap-3 w-full">
@@ -170,7 +170,7 @@ nummere */}
                 onChange={(e) => setNumPere(e.target.value)}
                 name="NumDeclarant"
                 className="w-[80%] py-2 px-2 border-2 border-slate-400 rounded-md "
-                placeholder="Num d'acte..."
+                placeholder="Num Pere..."
               />
             </div>
             <div className="flex items-center justify-between grow gap-3 w-full">
@@ -183,7 +183,7 @@ nummere */}
                 onChange={(e) => setNumMere(e.target.value)}
                 name="NumDeclarant"
                 className="w-[80%] py-2 px-2 border-2 border-slate-400 rounded-md "
-                placeholder="Num d'acte..."
+                placeholder="Num Mere..."
               />
             </div>
             <button

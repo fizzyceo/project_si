@@ -96,7 +96,7 @@ nummere */}
                 onChange={(e) => setnumA(e.target.value)}
                 name="NumDeclarant"
                 className="w-[80%] py-2 px-2 border-2 border-slate-400 rounded-md "
-                placeholder="Num d'acte..."
+                placeholder="Num d'acte Deces..."
               />
             </div>
             <div className="flex items-center justify-between  gap-3 w-full">
@@ -107,7 +107,7 @@ nummere */}
                 onChange={(e) => setnumActeNaissance(e.target.value)}
                 name="NumDeclarant"
                 className="w-[80%] py-2 px-2 border-2 border-slate-400 rounded-md "
-                placeholder="Num d'acte..."
+                placeholder="N Acte Naissance..."
               />
             </div>
             <div className="flex items-center justify-between  grow gap-3 w-full">
@@ -118,7 +118,7 @@ nummere */}
                 onChange={(e) => setDateD(e.target.value)}
                 name="NumDeclarant"
                 className="w-[80%] py-2 px-2 border-2 border-slate-400 rounded-md "
-                placeholder="Num d'acte..."
+                placeholder="date de deces..."
               />
             </div>
             <div className="flex items-center justify-between grow gap-3 w-full">
@@ -129,7 +129,7 @@ nummere */}
                 onChange={(e) => setLieuD(e.target.value)}
                 name="NumDeclarant"
                 className="w-[80%] py-2 px-2 border-2 border-slate-400 rounded-md "
-                placeholder="Num d'acte..."
+                placeholder="lieu de deces..."
               />
             </div>
             <div className="flex items-center justify-between grow gap-3 w-full">
@@ -142,7 +142,7 @@ nummere */}
                 onChange={(e) => setEtatCivile(e.target.value)}
                 name="NumDeclarant"
                 className="w-[80%] py-2 px-2 border-2 border-slate-400 rounded-md "
-                placeholder="Num d'acte..."
+                placeholder="etat Civile..."
               />
             </div>
 

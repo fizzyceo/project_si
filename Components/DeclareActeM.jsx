@@ -152,7 +152,7 @@ nummere */}
                 onChange={(e) => setnumAH(e.target.value)}
                 name="NumDeclarant"
                 className="w-[80%] py-2 px-2 border-2 border-slate-400 rounded-md "
-                placeholder="Num d'acte..."
+                placeholder="Num d'acte Epoux..."
               />
             </div>
             <div className="flex items-center justify-between grow gap-3 w-full">
@@ -163,7 +163,7 @@ nummere */}
                 onChange={(e) => setnumAF(e.target.value)}
                 name="NumDeclarant"
                 className="w-[80%] py-2 px-2 border-2 border-slate-400 rounded-md "
-                placeholder="Num d'acte..."
+                placeholder="Num d'acte Epouse..."
               />
             </div>
             <div className="flex items-center justify-between grow gap-3 w-full">
@@ -176,7 +176,7 @@ nummere */}
                 onChange={(e) => setDate(e.target.value)}
                 name="NumDeclarant"
                 className="w-[80%] py-2 px-2 border-2 border-slate-400 rounded-md "
-                placeholder="Num d'acte..."
+                placeholder="Date de Marriage..."
               />
             </div>
             <div className="flex items-center justify-between grow gap-3 w-full">
@@ -189,7 +189,7 @@ nummere */}
                 onChange={(e) => setLieu(e.target.value)}
                 name="NumDeclarant"
                 className="w-[80%] py-2 px-2 border-2 border-slate-400 rounded-md "
-                placeholder="Num d'acte..."
+                placeholder="Lieu de Marriage..."
               />
             </div>
 
@@ -203,7 +203,7 @@ nummere */}
                 value={numTemoin1}
                 name="NumDeclarant"
                 className="w-[80%] py-2 px-2 border-2 border-slate-400 rounded-md "
-                placeholder="Num d'acte..."
+                placeholder="num temoin 1..."
               />
             </div>
             <div className="flex items-center justify-between grow gap-3 w-full">
@@ -216,7 +216,7 @@ nummere */}
                 value={numTemoin2}
                 name="NumDeclarant"
                 className="w-[80%] py-2 px-2 border-2 border-slate-400 rounded-md "
-                placeholder="Num d'acte..."
+                placeholder="num temoin 2..."
               />
             </div>
             <button
