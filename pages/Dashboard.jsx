@@ -98,7 +98,7 @@ afficher les nom prenom matricule des officiers et leurs roles il peut modifier 
 
             {role === 'maire' && <Maire uid={matricule} />}
             {role === 'civile' && <Civile numb={numb} uid={matricule} />}
-            {role === 'titulaire' && <Titulaire uid={matricule} />}
+            {role === 'titulaire' && <Titulaire numb={numb} uid={matricule} />}
 
             {/**
           <div className="w-[475px]">

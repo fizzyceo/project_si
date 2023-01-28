@@ -92,7 +92,9 @@ const SignUp = () => {
           </section>
         </main>
       ) : (
-        <div>We sent you a confirmation Email! on {email} !</div>
+        <div className="w-screen flex items-center bg-slate-900 text-xl text-white justify-center h-screen">
+          We sent you a confirmation Email! on {email} !
+        </div>
       )}
     </div>
   );
